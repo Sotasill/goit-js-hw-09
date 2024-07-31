@@ -5,10 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Js. Gallery</title>
     
-  <link rel="stylesheet" href="/vanilla-app-template/assets/1-gallery-b7eb740e.css">
+  <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
+  <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-10cb7c31.js">
+  <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-a088063d.css">
+  <link rel="stylesheet" href="/vanilla-app-template/assets/index-4e63de4f.css">
 </head>
 <body>
+    <a href="./index.html" class="link">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <line x1="5" y1="12" x2="11" y2="18" />
+            <line x1="5" y1="12" x2="11" y2="6" />
+        </svg>
+        <h1>Go back</h1>
+    </a>
     <ul class="gallery"></ul>
-    <script src="./js/1-gallery.js" defer></script>
+    <a href="./2-form.html" class="link">
+        <h1>Go to Form</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <line x1="13" y1="18" x2="19" y2="12" />
+            <line x1="13" y1="6" x2="19" y2="12" />
+        </svg>
+    </a>
+    
+
 </body>
 </html>
